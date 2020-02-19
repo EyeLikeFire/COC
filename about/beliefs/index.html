@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+
+<!-- Copyright (c) Christian Outreach Church and School -->
+
+<html>
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords" content="Christian Outreach, Church, School, Center, Hillsboro, Missouri, Beliefs"/>
+    <meta name="description" content="About Our Beliefs | Christian Outreach Church and School"/>
+    <title>Our Beliefs | Christian Outreach Church</title>
+		<base href='http://christianoutreachchurch.org'>
+    <link href="./styles/global.css" rel="stylesheet" type="text/css"/>
+    <link href="./images/logo.png" rel="icon" type="image/png"/>
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  </head>
+  
+  <body>
+    
+    <div class="topMenu">
+      <a class="tmLink1">Select Site:</a>
+      <a link class="tmLink1">Christian Outreach Church</a>
+      <a link class="tmLink0" href="./school/">Christian Outreach School</a>
+      <a link class="tmLinkL" href="" id="message"></a>
+    </div>
+    
+    <div id="headerContainer" class="header-container">
+      <div class="appMenu" onclick="menuOpen()"><img class="menuImg" alt="menu" src="./images/icons/menu.svg"/></div>
+      <img class="logo" alt="COC" src="./images/logo.png"/>
+      <div class="welcome">
+        <p class="welcomeText">Welcome to Christian Outreach Church!</p>
+      </div>
+    </div>
+    <div class="header" id="header" ocState="closed" shState="off">
+      <div class="symHB">
+        <a class="headerLink" href="./">Home</a>
+      </div>
+      <div class="symHB" onclick="openSh('about')">
+        <img class="navImg" id="aboutImg" alt="more" src="./images/icons/more.svg"/>
+        <a class="headerLink">About</a>
+      </div>
+      <div class="symHB" onclick="openSh('worship')">
+        <img class="navImg" id="worshipImg" alt="more" src="./images/icons/more.svg"/>
+        <a class="headerLink">Worship</a>
+      </div>
+      <div class="symHB" onclick="openSh('calendar')">
+        <img class="navImg" id="calendarImg" alt="more" src="./images/icons/more.svg"/>
+        <a class="headerLink">Calendar</a>
+      </div>
+      <div class="symHB" onclick="openSh('info')">
+        <img class="navImg" id="infoImg" alt="more" src="./images/icons/more.svg"/>
+        <a class="headerLink">More Info</a>
+      </div>
+      <div class="symHB">
+        <a class="headerLink" href="./sermons/">Sermons</a>
+      </div>
+      <div class="symHB">
+        <a class="headerLink" href="./school/">School</a>
+      </div>
+      <div class="headerButton">
+        <a link class="headerLink" href="./">Home</a>
+      </div>
+      <div class="headerButton" id="about">
+        <a link class="headerLink" href="./about/">About</a>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/beliefs/">Our Beliefs</a>
+          </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/groups/">Groups</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/leadership/">Leadership</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/history/">History</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/campus/">Campus</a>
+        </div>
+      </div>
+      <div class="headerButton" id="worship" onclick="openSh('worship')">
+        <a link class="headerLink" href="./worship/">Worship</a>
+        <div class="subButton">
+          <a link class="headerLink" href="./worship/services/">Services</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./worship/philosophy/">Philosophy</a>
+        </div>
+      </div>
+      <div class="headerButton" id="calendar" onclick="openSh('calendar')">
+        <a link class="headerLink" href="./calendar/">Calendar</a>
+        <div class="subButton">
+          <a link class="headerLink" href="./calendar/events/">Events</a>
+        </div>
+      </div>
+      <div class="headerButton" id="info" onclick="openSh('info')">
+        <a link class="headerLink" href="./info/">More Info</a>
+        <div class="subButton">
+          <a link class="headerLink" href="./info/contact/">Contact Us</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./info/locate/">Locate Us</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./info/contribute/">Contribute</a>
+        </div>
+      </div>
+      <div class="headerButton">
+        <a link class="headerLink" href="./sermons/">Sermons</a>
+      </div>
+      <div class="headerButton">
+        <a link class="headerLink" href="./school/">School</a>
+      </div>
+      </div>
+    <div class="subHeader" id="Sh">
+    </div>
+    
+    <div class="main">
+      
+      <div class="div"></div>
+			
+      <div id="announcement" class="announcement" style="display:none">
+        <a id="announcementTxt" link class="announcementTxt" href=""></a>
+      	<div class="div"></div>
+      </div>
+      
+      <div class="paragraph">
+        <h1>Our Beliefs</h1>
+        <div class="window" id="beginnings" oc="closed" onclick="openWindow('beginnings')">
+          <span class="windowH">Beginnings</span>
+          <div class="windowCt" id="beginningsCt">
+            <p>Here are some of the basics of the Christian life. Before anything else we must have a relationship with the Lord in which we trust Him as Savior and follow Him as our Master. You will find a brief article about how the Lord brings us to saving faith under "How to be Saved."</p>
+            <p>Since the Lord commands baptism as part of the salvation experience, we ought to obey that command and be baptized. We can call that "New Birth Baptism."</p>
+            <p>We also believe that, although we receive the Holy Spirit as soon as we become Christians, there is a further experience of power available to believers as they are baptized with the Spirit.</p>
+            <p>Finally, we believe that the powers of the Holy Spirit described in 1 Corinthians 12 and 14 are still available to the Church today.</p>
+            <h2>What We Believe—More Details</h2>
+            <p>God commands us to love our brothers and sisters in Christ. The unity of the Church does not depend on theological formulations, but on a living relationship with the Lord Jesus. If you belong to Him, you are our brother or sister and we can rejoice in our fellowship!</p>
+            <p>When it comes to theological formulas, by God's grace we desire to avoid two extremes. On the one hand we reject the deadly relativism of our times, and therefore teach our beliefs openly. On the other hand, we want to remain humble and teachable. The Lord Jesus taught us that the truth will bring division, but the division should not come from merely stubborn and loveless attitudes.</p>
+            <p>Some of our beliefs are not up for discussion, such as the Virgin birth of Christ, His Divine-Human natures, and His atoning sacrifice for us. But other matters are not so fundamental to the Christian faith, and will not keep anyone out of heaven and should be discussed in love, avoiding unnecessary division.</p>
+            <p>The statements below contain both kinds of issues, meaning that some of them are not cast in titanium, but some are. You are invited to email us with any questions you may have.</p>
+            <h2>We Commit Ourselves...</h2>
+            <ul>
+              <li>to teach and obey the Bible as the supreme authority for the believer and the Church.</li>
+              <li>to recognize that the Lord Jesus Christ is the Foundation and Core of all proper, biblical teaching.</li>
+              <li>to confess the truths of the universal creeds: The Apostolic, The Nicene, and The Athanasian.</li>
+              <li>to maintain the proper distinction between Law and Gospel as crucially important principles for handling the Bible correctly.</li>
+              <li>to administer the Sacraments of Baptism and Communion Scripturally, believing the words of promise attached to them.</li>
+              <li>to obey the Great Commission recognizing that Jesus has commanded us to be a teaching Church.</li>
+              <li>to practice the grace-powers (gifts) of the Holy Spirit.</li>
+              <li>to integrate all ages of God's people from infancy to old age so that they function as one body, each benefitting from the other.</li>
+              <li>to provide a Classical Education to Christian young people, with a strong, biblical foundation.</li>
+              <li>to pursue excellence in academics, the arts, physical fitness, and especially the spiritual life.</li>
+              <li>to offer our schools as a service to our brothers and sisters and fellow Christian congregations, not attempting to "grow our church" at their expense. We are guided by Martin Luther's admonition. "We should fear and love God so that we do not entice or force away our neighbor's wife, workers, [church members] or animals, or turn them against him, but urge them to stay and do their duty" (Explanation to the Tenth Commandment).</li>
+              <li>to offer our facilities and resources to any who wish to provide a biblical world-view education. We gladly share what we have with home-schoolers, students, families, and other schools like ours.</li>
+              <li>to honor every proper vocation as holy to God.</li>
+              <li>to affirm contemporary as well as historic worship and musical styles, seeking to encourage artists in their service of God.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="window" id="mission" oc="closed" onclick="openWindow('mission')">
+          <span class="windowH">Mission</span>
+          <div class="windowCt" id="missionCt">
+            <h2>We have a three-fold mission.</h2>
+            <p>We exist...</p>
+            <h3>1. To Teach a Whole Word.</h3>
+            <p>By this we mean that our teaching is to be based on a fair and complete study of what the Bible has to say on whatever subject is discussed.</p>
+            <h3>2. To Nurture a Whole People.</h3>
+            <p>This means that while we do not expect perfection here and now, we are ready to deal honestly with our failings and trust in God's grace to develop in us a Christlike life. We are also committed to providing resources through our congregation and Christian Classical School that will help create healthy families in which to raise up the next generation to serve the Lord with conviction and power.</p>
+            <h3>3. To Reach Out to the Whole World.</h3>
+            <p>We do this through direct support of missionaries and by doing mission work as God opens doors. Over half of our members have been used by God to bring the Gospel to peoples in darkness. This also means we must seek God's leading to reach out into our community. And, perhaps most importantly of all, this requires us as individual believers to seek the Lord's equipping to become effective personal witnesses wherever we go.</p>
+            <p>To accomplish these goals, we believe the Lord Jesus desires to equip every member of His Church with the power of the Holy Spirit to serve as healers in our sad, broken world. We believe that signs, wonders, deliverances, and healings are to be done as an integral part of preaching the Gospel as is ministry to the poor. The "Gospel of the Kingdom" forgives sin and heals disease.</p>
+          </div>
+        </div>
+        <div class="window" id="faith" oc="closed" onclick="openWindow('faith')">
+          <span class="windowH">Statement of Faith</span>
+          <div class="windowCt" id="faithCt">
+            <p>We believe that God is the infinite, eternal Creator of the universe Who has revealed Himself as One God yet as three Persons: the Father, the Son, and the Holy Spirit. Through the Son and by the power of the Spirit the Father created the entire seen and unseen creation, including man, in six days.</p>
+            <p>According to their eternal plan, the Father sent the Son into the World, to be born of a woman, born under the Law, to redeem us who were under the Law. By His sinless, obedient life, death, resurrection, and ascension, the Son has freed us from the guilt and power of sin. He has made full payment for all transgressions, and has overcome sin, death, and hell. He has opened to us free access to the Father, purchased our healing, and redeemed us from all bondage through His cross.</p>
+            <p>Christ will come again in power and glory, to judge the living and the dead. Those who believed in Him shall be granted eternal life with Him in heaven, while those who rejected Him shall be sent to an eternal hell of punishment and torment.</p>
+            <p>As glorious Victor over principalities and powers He shares the spoils of His victory with His Church. He sends gifts of men: apostles, prophets, evangelists, pastors, and teachers to equip the saints to serve. After His ascension to the right hand of the Father, He received the promised Holy Spirit and poured Him out upon all flesh.</p>
+            <p>The Holy Spirit calls and gathers the Church through the Gospel, which Gospel He desires to confirm in signs and wonders. The Spirit was poured out so that all believers would receive power to witness in word and deed. The Spirit equips the Church for sanctification, worship, and ministry worldwide.</p>
+            <p>By the Holy Spirit, God has given us the Holy Scriptures. They are God-breathed, inerrant, and are the final and only rule of the Church's faith, practice, and life.</p>
+          </div>
+        </div>
+        <div class="window" id="saved" oc="closed" onclick="openWindow('saved')">
+          <span class="windowH">How to be Saved</span>
+          <div class="windowCt" id="savedCt">
+            <h2>What if God asked you, "Why should I let you into my heaven?"</h2>
+            <p>Would you tell God that your good works outnumber your bad? that you go to church? that you're better than some others? Those are the kinds of answers I get from most people.</p>
+            <p>We preach Good News, but there must be some bad news first. We will never be able to deserve eternal life. God says, "For whoever shall keep the whole law, and yet stumble in one point, he is guilty of all" (James 2:10). This is why God tells us,</p>
+            <ul>
+              <li>"All have sinned and fall short of the glory of God" (Romans 3:23)</li>
+              <li>"Therefore by the deeds of the law no flesh will be justified in His sight, for by the law is the knowledge of sin" (Romans 3:20).</li>
+              <li>By nature we are blind, dead, and enemies of God (Ephesians 2:1, Romans 8:7).</li>
+            </ul>
+            <h2>HERE IS THE GOOD NEWS!</h2>
+            <ul>
+              <li>Because, by nature, we are dead in trespasses and sins We can be saved only by God's working in us. John says: "But as many as received Him, to them He gave the right to become children of God, to those who believe in His name: who were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God" (John 1:12, 13).</li>
+              <li>We cannot reason ourselves into faith. God must give us faith: "For by grace you have been saved through faith, and that not of yourselves; it is the gift of God" (Ephesians 2:8).</li>
+              <li>The Bible says, "The Gospel is the power of God unto salvation for everyone who believes" (Romans 1:16). God saves us by convicting us of sin and calling us by the Gospel to trust in His mercy on account of Christ's saving work. When we hear God's command, "Repent and believe the Gospel" its effect is similar to what happened when Jesus said to Lazarus, the man who had been dead four days, "Lazarus, come forth." And the dead man arose, empowered by the Word. So, though you are dead, the command to repent and believe will raise you from spiritual death to life. You do the believing to be sure, but your ability to do so comes from God.</li>
+              <li>God will lead you to admit your sinfulness and to trust Him to forgive your sin and heal your shame. God working in you will give you the desire and ability increasingly to become like Jesus.</li>
+              <li>It is vitally important for you to find a godly local church where you can grow in your knowledge of God's Word, and where you will experience His power as His family gathers for teaching, worship, communion, and fellowship. If you have not already been baptized earlier in life, do so as soon as possible. Baptism places "God's watermark" on you declaring you legally His child.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    <div class="footer">
+      <div class="fcContainer">
+        <div class="footerColumn">
+          <a link class="fcHead" href="./about/">About</a>
+          <a link class="fcList" href="./about/beliefs/">Our Beliefs</a><br/>
+          <a link class="fcList" href="./about/groups/">Groups</a><br/>
+          <a link class="fcList" href="./about/history/">History</a><br/>
+          <a link class="fcList" href="./about/campus/">Campus</a><br/>
+        </div>
+        <div class="footerColumn">
+          <a link class="fcHead" href="./school/">School</a>
+          <a link class="fcList" href="./school/apply/">Enrollment</a><br/>
+          <a link class="fcList" href="./school/resources/">Resources</a><br/>
+          <a link class="fcList" href="./school/about/">About</a><br/>
+        </div>
+        <div class="footerColumn">
+          <a link class="fcHead" href="./calendar/">Calendar</a>
+          <a link class="fcList" href="./calendar/events/">Events</a><br/>
+        </div>
+        <div class="footerColumn">
+          <a link class="fcHead" href="./info/">More Info</a>
+          <a link class="fcList" href="./info/contact/">Contact Us</a><br/>
+          <a link class="fcList" href="./info/locate/">Locate Us</a><br/>
+          <a link class="fcList" href="./info/contribute/">Contribute</a><br/>
+        </div>
+        <div class="footerColumn">
+          <a link class="fcHead" href="./info/contact/">Contact Church</a>
+          <a link class="fcList" href="tel:+1-636-789-3901">(636) 789-3901</a><br/>
+          <a link class="fcList" href="mailto:email@christianoutreachchurch.org">email</a><br/>
+        </div>
+      </div>
+      <p class="endNotes">Copyright &copy; 2012-2017 Christian Outreach Church and School</p>
+    </div>
+      
+  </div>
+    
+  </body>
+  
+  <script src="./scripts/global.js"></script>
+  
+</html>

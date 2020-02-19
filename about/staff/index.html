@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+
+<!-- Copyright (c) Christian Outreach Church and School -->
+
+<html>
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="keywords" content="Christian Outreach, Church, School, Center, Hillsboro, Missouri"/>
+    <meta name="description" content="Staff at Christian Outreach Church"/>
+    <title>Staff | Christian Outreach Church</title>
+		<base href='http://christianoutreachchurch.org'>
+    <link href="./styles/global.css" rel="stylesheet" type="text/css"/>
+    <link href="./images/logo.png" rel="icon" type="image/png"/>
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  </head>
+  
+  <body>
+    
+    <div class="topMenu">
+      <a class="tmLink1">Select Site:</a>
+      <a link class="tmLink1">Christian Outreach Church</a>
+      <a link class="tmLink0" href="./school/">Christian Outreach School</a>
+      <a link class="tmLinkL" href="" id="message"></a>
+    </div>
+    
+    <div id="headerContainer" class="header-container">
+      <div class="appMenu" onclick="menuOpen()"><img class="menuImg" alt="menu" src="./images/icons/menu.svg"/></div>
+      <img class="logo" alt="COC" src="./images/logo.png"/>
+      <div class="welcome">
+        <p class="welcomeText">Welcome to Christian Outreach Church!</p>
+      </div>
+    </div>
+    <div class="header" id="header" ocState="closed" shState="off">
+      <div class="symHB">
+        <a class="headerLink" href="./">Home</a>
+      </div>
+      <div class="symHB" onclick="openSh('about')">
+        <img class="navImg" id="aboutImg" alt="more" src="./images/icons/more.svg"/>
+        <a class="headerLink">About</a>
+      </div>
+      <div class="symHB" onclick="openSh('worship')">
+        <img class="navImg" id="worshipImg" alt="more" src="./images/icons/more.svg"/>
+        <a class="headerLink">Worship</a>
+      </div>
+      <div class="symHB" onclick="openSh('calendar')">
+        <img class="navImg" id="calendarImg" alt="more" src="./images/icons/more.svg"/>
+        <a class="headerLink">Calendar</a>
+      </div>
+      <div class="symHB" onclick="openSh('info')">
+        <img class="navImg" id="infoImg" alt="more" src="./images/icons/more.svg"/>
+        <a class="headerLink">More Info</a>
+      </div>
+      <div class="symHB">
+        <a class="headerLink" href="./sermons/">Sermons</a>
+      </div>
+      <div class="symHB">
+        <a class="headerLink" href="./school/">School</a>
+      </div>
+      <div class="headerButton">
+        <a link class="headerLink" href="./">Home</a>
+      </div>
+      <div class="headerButton" id="about">
+        <a link class="headerLink" href="./about/">About</a>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/beliefs/">Our Beliefs</a>
+          </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/groups/">Groups</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/staff/">Staff</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/history/">History</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./about/campus/">Campus</a>
+        </div>
+      </div>
+      <div class="headerButton" id="worship" onclick="openSh('worship')">
+        <a link class="headerLink" href="./worship/">Worship</a>
+        <div class="subButton">
+          <a link class="headerLink" href="./worship/services/">Services</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./worship/philosophy/">Philosophy</a>
+        </div>
+      </div>
+      <div class="headerButton" id="calendar" onclick="openSh('calendar')">
+        <a link class="headerLink" href="./calendar/">Calendar</a>
+        <div class="subButton">
+          <a link class="headerLink" href="./calendar/events/">Events</a>
+        </div>
+      </div>
+      <div class="headerButton" id="info" onclick="openSh('info')">
+        <a link class="headerLink" href="./info/">More Info</a>
+        <div class="subButton">
+          <a link class="headerLink" href="./info/contact/">Contact Us</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./info/locate/">Locate Us</a>
+        </div>
+        <div class="subButton">
+          <a link class="headerLink" href="./info/contribute/">Contribute</a>
+        </div>
+      </div>
+      <div class="headerButton">
+        <a link class="headerLink" href="./sermons/">Sermons</a>
+      </div>
+      <div class="headerButton">
+        <a link class="headerLink" href="./school/">School</a>
+      </div>
+      </div>
+    <div class="subHeader" id="Sh">
+    </div>
+    
+    <div class="main">
+      
+      <div class="div"></div>
+			
+      <div id="announcement" class="announcement" style="display:none">
+        <a id="announcementTxt" link class="announcementTxt" href=""></a>
+      	<div class="div"></div>
+      </div>
+      
+      <div class="paragraph">
+        <h1>Christian Outreach Church Staff</h1>
+        <p>We're still working on this page. Please come back later for more info.</p>
+        <ul>
+          <li>Wayne DeCloux, elder</li>
+          <li>Warren Henriksen, elder</li>
+          <li>David Houser, elder</li>
+          <li>Dan Kennedy, elder</li>
+          <li>Tom Kraeuter, elder</li>
+          <li>Steve Miller, elder</li>
+          <li>Daryl Roth, elder</li>
+          <li>Connie Wood, administrative assistant</li>
+        </ul>
+        
+        <!--
+          <div id="Decloux" class="staff">
+            <img id="DeclouxImg" class="staffImg" alt="Wayne DeCloux" src="./images/staff/church/DeCloux.jpg"/>
+            <span id="DeclouxTop" class="staffTop">Wayne DeCloux, elder</span>
+            <span id="DeclouxCt" class="staffCt">Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. </span>
+          </div>
+          <div id="Henriksen" class="staff">
+            <img id="HenriksenImg" class="staffImg" alt="Warren Henriksen" src="./images/staff/church/Henriksen.jpg"/>
+            <span id="HenriksenTop" class="staffTop">Warren Henriksen, elder</span>
+            <span id="HenriksenCt" class="staffCt">Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. </span>
+          </div>
+          <div id="Houser" class="staff">
+            <img id="HouserImg" class="staffImg" alt="David Houser" src="./images/staff/church/Houser.jpg"/>
+            <span id="HouserTop" class="staffTop">David Houser, elder</span>
+            <span id="HouserCt" class="staffCt">Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. </span>
+          </div>
+          <div id="Kennedy" class="staff">
+            <img id="KennedyImg" class="staffImg" alt="Dan Kennedy" src="./images/staff/church/Kennedy.jpg"/>
+            <span id="KennedyTop" class="staffTop">Dan Kennedy, elder, worship leader</span>
+            <span id="KennedyCt" class="staffCt">Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. </span>
+          </div>
+          <div id="Kraeuter" class="staff">
+            <img id="KraeuterImg" class="staffImg" alt="Tom Kraeuter" src="./images/staff/church/Kraeuter.jpg"/>
+            <span id="KraeuterTop" class="staffTop">Tom Kraeuter, elder</span>
+            <span id="KraeuterCt" class="staffCt">Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. </span>
+          </div>
+          <div id="Miller" class="staff">
+            <img id="MillerImg" class="staffImg" alt="Steve Miller" src="./images/staff/church/Miller.jpg"/>
+            <span id="MillerTop" class="staffTop">Steve Miller, elder</span>
+            <span id="MillerCt" class="staffCt">Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. </span>
+          </div>
+          <div id="Roth" class="staff">
+            <img id="RothImg" class="staffImg" alt="Daryl Roth" src="./images/staff/church/Roth.jpg"/>
+            <span id="RothTop" class="staffTop">Daryll Roth, elder</span>
+            <span id="RothCt" class="staffCt">Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. </span>
+          </div>
+          <div id="Wood" class="staff">
+            <img id="WoodImg" class="staffImg" alt="Connie Wood" src="./images/staff/church/Wood.jpg"/>
+            <span id="WoodTop" class="staffTop">Connie Wood, administrative assistant</span>
+            <span id="WoodCt" class="staffCt">Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. Sample content describing this staff member. </span>
+          </div>
+      -->
+      </div>
+    
+    <div class="footer">
+      <div class="fcContainer">
+        <div class="footerColumn">
+          <a link class="fcHead" href="./about/">About</a>
+          <a link class="fcList" href="./about/beliefs/">Our Beliefs</a><br/>
+          <a link class="fcList" href="./about/groups/">Groups</a><br/>
+          <a link class="fcList" href="./about/history/">History</a><br/>
+          <a link class="fcList" href="./about/campus/">Campus</a><br/>
+        </div>
+        <div class="footerColumn">
+          <a link class="fcHead" href="./school/">School</a>
+          <a link class="fcList" href="./school/apply/">Enrollment</a><br/>
+          <a link class="fcList" href="./school/resources/">Resources</a><br/>
+          <a link class="fcList" href="./school/about/">About</a><br/>
+        </div>
+        <div class="footerColumn">
+          <a link class="fcHead" href="./calendar/">Calendar</a>
+          <a link class="fcList" href="./calendar/events/">Events</a><br/>
+        </div>
+        <div class="footerColumn">
+          <a link class="fcHead" href="./info/">More Info</a>
+          <a link class="fcList" href="./info/contact/">Contact Us</a><br/>
+          <a link class="fcList" href="./info/locate/">Locate Us</a><br/>
+          <a link class="fcList" href="./info/contribute/">Contribute</a><br/>
+        </div>
+        <div class="footerColumn">
+          <a link class="fcHead" href="./info/contact/">Contact Church</a>
+          <a link class="fcList" href="tel:+1-636-789-3901">(636) 789-3901</a><br/>
+          <a link class="fcList" href="mailto:email@christianoutreachchurch.org">email</a><br/>
+        </div>
+      </div>
+      <p class="endNotes">Copyright &copy; 2012-2017 Christian Outreach Church and School</p>
+    </div>
+      
+  </div>
+    
+  </body>
+  
+  <script src="./scripts/global.js"></script>
+  
+</html>

@@ -1,0 +1,89 @@
+    _____   ______     _____
+   /       /      \   /     
+  /        |      |  /      
+  |        |      |  |      
+  \        |      |  \      
+   \_____  \______/   \_____
+
+Site Map and Progress Indicator for christianoutreachchurch.org
+
+christianoutreachchurch.org
+^  index.html                                         //Givelify
+  images
+    logo.png (favicon)
+    (generic images)
+    logo.svg
+    map.jpg
+    chapel.jpg
+    school.jpg
+    history
+      (images for history page)
+    staff
+^      church                                         //we still need most of the photos and bios
+        (pictures of COC staff)
+      school
+        (pictures of COS staff)
+    icons
+      (generic icons)
+  scripts
+    global.js
+  styles
+    global.css
+  about
+    index.html
+^    beliefs                                          //should it be simplified?
+      index.html
+^    groups                                           //needs some updates
+      index.html
+^    staff                                            //bios need to be written
+      index.html
+    history
+      index.html
+    campus
+      index.html
+  worship
+    index.html         
+^    services                                         //page still needs to be written
+      index.html
+    philosophy
+      index.html
+  calendar
+    index.html
+    events
+      index.html
+  info
+    index.html
+    contact
+      index.html
+    locate
+      index.html
+    contribute
+      index.html
+  sermons
+  	index.html
+  school
+    index.html
+    enrollment
+      index.html
+      forms
+        index.html
+      tuition
+        index.html
+    resources
+      index.html
+    about
+      index.html
+^      staff                                          //bios need to be updated
+        index.html
+      mission
+        index.html
+      index.html
+    docs
+      calendar_2017-2018.pdf
+      enrollment_request.pdf
+      financial_agreement_2017-2018.pdf
+      parent_application.pdf
+      supply_list_2016-2017.pnf
+      tuition+fees_2017-2018.pdf
+  404.html
+^  /email/index.html                                 //should we have a page for info signing up, or is christianoutreachchurch.org/mailman/etcetera enough?
