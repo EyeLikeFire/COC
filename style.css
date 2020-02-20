@@ -42,7 +42,7 @@ nav {
     color: var(--color-dark);
 }
 
-li {
+#beliefs > li {
     padding: 15px;
 }
 
