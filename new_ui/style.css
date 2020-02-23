@@ -97,6 +97,10 @@ hr.hr-margin {
     box-shadow: 0px 0px 20px var(--color-shadow);
 }
 
+.transition {
+   box-shadow: 0 0 40px 25px white;
+}
+
 .carousel-item {
     height: 300px;
     overflow: hidden;
@@ -124,8 +128,9 @@ footer {
     background-color: var(--color-dark);
     color: var(--color-bright);
 }
+
 .flex-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
   }
