@@ -30,6 +30,17 @@ body {
     background-color: var(--color-secondary);
 }
 
+.pound {
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+    text-shadow: none;
+}
+.pound:hover {
+    text-shadow: inherit;
+    color: var(--color-shadow-lte);
+    text-decoration: none;
+}
 .font-outline {
     text-shadow: 
      0px 0px 5px var(--color-shadow);

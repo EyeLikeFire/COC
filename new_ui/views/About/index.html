@@ -17,45 +17,45 @@
 </head>
 <body>
 <!-- Navbar -->
-    <div class="sticky-top ">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <!-- Home -->
-                    <li class="nav-item active">
-                        <a class="nav-link" href="file:///C:/Users/mcdev/Documents/PROJECTS/COC_Website/index.html#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <!-- About -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="file:///C:/Users/mcdev/Documents/PROJECTS/COC_Website/Views/About/index.html#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="file:///C:/Users/mcdev/Documents/PROJECTS/COC_Website/Views/About/index.html#">What We Believe</a>
-                            <a class="dropdown-item" href="file:///C:/Users/mcdev/Documents/PROJECTS/COC_Website/Views/About/index.html#">Home Groups</a>
-                            <a class="dropdown-item" href="file:///C:/Users/mcdev/Documents/PROJECTS/COC_Website/Views/About/index.html#">Leadership</a>
-                            <a class="dropdown-item" href="file:///C:/Users/mcdev/Documents/PROJECTS/COC_Website/Views/About/index.html#">History</a>
-                        </div>
-                    </li>
-                    <!-- Sermons -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="file:///C:/Users/mcdev/Documents/PROJECTS/COC_Website/Views/Sermons/index.html#">Sermons</a>
-                    </li>
-                    <!-- Contact -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="file:///C:\Users\mcdev\Documents\PROJECTS\COC_Website\Views\Contact\index.html">Contact</a>
-                    </li>
-                    <!-- School -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://christianoutreachchurch.org/school/">School</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="flex-container">
+<div class="fixed-top ">
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler hov" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <!-- Home -->
+              <li class="nav-item active">
+                  <a class="nav-link" href="../../index.html#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <!-- About -->
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./Views/About/index.html#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#what-we-believe">What We Believe</a>
+                      <a class="dropdown-item" href="#home-groups">Home Groups</a>
+                      <a class="dropdown-item" href="#leadership">Leadership</a>
+                      <a class="dropdown-item" href="#history">History</a>
+                  </div>
+              </li>
+              <!-- Sermons -->
+              <li class="nav-item">
+                  <a class="nav-link" href="../Sermons/index.html#">Sermons</a>
+              </li>
+              <!-- Contact -->
+              <li class="nav-item">
+                  <a class="nav-link" href="../Contact/index.html#">Contact</a>
+              </li>
+              <!-- School -->
+              <li class="nav-item">
+                  <a class="nav-link" href="../school/index.html#">School</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+        <div class="flex-container transition">
             <div class="color-1"></div>
             <div class="color-2"></div>
             <div class="color-3"></div>
@@ -65,9 +65,14 @@
     </div>
     <!-- Main Content -->
     <main>
+      <span id="what-we-believe"></span>
+      <br />
       <div class="stripe-background-invert">
         <article class="virtical-pad">
-            <h1 class="text3D">What We Believe</h1>
+              <h1 class="text3D">
+                <a class="pound" style="color: rgb(239, 245, 244)"  href="#what-we-believe">#</a>
+                What We Believe
+              </h1>
             <div>
                 <p>
                 God commands us to love our brothers and sisters in Christ. The unity of the Church does not depend on theological formulations, but on a living relationship with the Lord Jesus. If you belong to Him, you are our brother or sister and we can rejoice in our fellowship!
@@ -103,24 +108,32 @@
                     </ul>
                 </details>
             </div>
+            <span id="home-groups"></span>
         </article>
       </div>
         <div class="shadow-background neg-margin">
           <!-- <hr class=""/> -->
           <article class="virtical-pad">
-              <h1 class="text3D">Home Groups</h1>
+              <h1 class="text3D">
+                <a class="pound" href="#home-groups">#</a>
+                Home Groups
+              </h1>
               <div>
                   <p>
                   Our “Home Groups” are primarily fellowship, study, and prayer gatherings at homes of the members. These are intended to provide the mainstay of pastoral care at COC. Those who consider themselves members should be a part of one of our Home Groups.
                   </p>
               </div>
+              <span id="leadership"></span>
           </article>
           <br />
           <!-- <hr style="padding: 0%; margin: 0%";/> -->
         </div>
         <div  class="stripe-background">
         <article>
-            <h1 class="text3D">Leadership</h1>
+            <h1 class="text3D">
+              <a class="pound" style="color: rgb(239, 245, 244)"  href="#leadership">#</a>
+              Leadership
+            </h1>
                 <p>
                 We do not have a single pastor, but a group of seven elders who lead the congregation. 
                 </p>
@@ -187,182 +200,31 @@
               </div>
             </div>
           </div>
+          <br />
+          <span id="history"></span>
         </article>
         <div class="shadow-background">
           <!-- <hr class="hr-margin"/> -->
           <article >
-              <h1 class="text3D " style="color: #56876D">History</h1>
+            <br />
+            <br />
+              <h1 class="text3D " style="color: #56876D">
+                <a class="pound" href="#history">#</a>
+                History
+              </h1>
               <div>
                   <p class="font-dark">
                       Christian Outreach Church began, not so much as a church congregation, but as a place where various ministries would be able to work side by side. Initially, three leaders came together with the same need: a place to house their ministries. Bob Heil, an ex-Lutheran pastor, longed for a school to train leaders and send them out. Linn Haitz, a long-time missionary, wanted to house a missions organization and train missionaries. Ron Sutton, a youth pastor, sought a refuge center for the outcast and drug addicts from St. Louis. In 1974, through many hours of discussion, prayer and searching, the three located and obtained the land that is now Christian Outreach Center.
                       The congregation was a natural outgrowth of those ministries—and others throughout the years—working in close proximity.
                   </p>
               </div>
+              <br />
+              <br />
           </article>
           <!-- <hr class="hr-margin"/> -->
           </div>
-        </div>
-
-<!-- 
-
-
--->
-            <!--Carousel WrapperS 
-            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-        
-              <ol class="carousel-indicators">
-                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-                <li data-target="#multi-item-example" data-slide-to="1"></li>
-                <li data-target="#multi-item-example" data-slide-to="2"></li>
-              </ol>
-
-              <div class="carousel-inner" role="listbox">
-        
-                <div class="carousel-item active">
-        
-                  <div class="row">
-                    <div class="col-md-4">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-4 clearfix d-none d-md-block">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-4 clearfix d-none d-md-block">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-4 clearfix d-none d-md-block">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-4 clearfix d-none d-md-block">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-4 clearfix d-none d-md-block">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-4 clearfix d-none d-md-block">
-                      <div class="card mb-2">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                          <a class="btn btn-primary">Button</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        -->
-        
+        </div>       
     </main>
-
-    <i href="#" style="text-align: center; margin-left: 40vw; padding: 20px;">Facebook</i>
-    <footer class="fixed-bottom">
-        <div class="flex-container">
-            <div class="color-1"></div>
-            <div class="color-2"></div>
-            <div class="color-3"></div>
-            <div class="color-4"></div>
-            <div class="color-5"></div>
-        </div>
-    </footer>
 
     <!-- Required bootstrap scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
