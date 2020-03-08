@@ -12,6 +12,50 @@ body {
     background-color: var(--color-bright);
 }
 
+.text-left {
+    text-align: left;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-photo { 
+    margin-top: 7px;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 6; 
+  }
+
+.grid-header {
+    grid-column-start: 2; 
+    grid-column-end: end;  
+}
+.grid-icon {
+    padding-top: 2px;
+    grid-column-start: 2; 
+    grid-column-end: 3;  
+}
+
+.icon {
+    max-width: 30px;
+}
+.address {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+.phone {
+    font-size: 1.5rem;
+    color: var(--color-dark); 
+}
+
+.email {
+    font-size: 1.5rem;
+    color: rgb(45, 104, 128); 
+}
 .color-1 {
     background-color: var(--color-dark);
     color: #ffffff;
@@ -216,6 +260,18 @@ footer {
         1px 9px 1px var(--color-shadow),
         1px 9px 10px var(--color-shadow)
 }
+
+.text3D-sub {
+    font-size: 2em;
+
+    color: var(--color-dark);
+    text-shadow: 
+        1px 1px 1px var(--color-shadow),
+        1px 2px 1px var(--color-shadow),
+        1px 3px 1px var(--color-shadow),
+        1px 4px 1px var(--color-shadow)
+}
+
 
 
 .card-title{
