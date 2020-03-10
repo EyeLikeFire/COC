@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
     <title>COC</title>
+    <base href='http://christianoutreachchurch.org/new_ui/'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- code I found that is supposed to make the page compatible with IE -->
@@ -11,7 +12,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="../../style.css"  type="text/css">
+    <link rel="stylesheet" href="./style.css"  type="text/css">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -25,32 +26,32 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
               <!-- Home -->
-              <li class="nav-item active">
-                  <a class="nav-link" href="../../index.html#">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                  <a class="nav-link" href="./index.html#">Home <span class="sr-only">(current)</span></a>
               </li>
               <!-- About -->
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown  active">
                   <a class="nav-link dropdown-toggle" href="./Views/About/index.html#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   About
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#what-we-believe">What We Believe</a>
-                      <a class="dropdown-item" href="#home-groups">Home Groups</a>
-                      <a class="dropdown-item" href="#leadership">Leadership</a>
-                      <a class="dropdown-item" href="#history">History</a>
+                      <a class="dropdown-item" href="./views/About/#what-we-believe">What We Believe</a>
+                      <a class="dropdown-item" href="./views/About/#home-groups">Home Groups</a>
+                      <a class="dropdown-item" href="./views/About/#leadership">Leadership</a>
+                      <a class="dropdown-item" href="./views/About/#history">History</a>
                   </div>
               </li>
               <!-- Sermons -->
               <li class="nav-item">
-                  <a class="nav-link" href="../Sermons/index.html#">Sermons</a>
+                  <a class="nav-link" href="./views/Sermons/index.html#">Sermons</a>
               </li>
               <!-- Contact -->
               <li class="nav-item">
-                  <a class="nav-link" href="../Contact/index.html#">Contact</a>
+                  <a class="nav-link" href="./views/Contact/index.html#">Contact</a>
               </li>
               <!-- School -->
               <li class="nav-item">
-                  <a class="nav-link" href="../school/index.html#">School</a>
+                  <a class="nav-link" href="./views/School/index.html#">School</a>
               </li>
           </ul>
       </div>
@@ -70,7 +71,7 @@
       <div class="stripe-background-invert">
         <article class="virtical-pad">
               <h1 class="text3D">
-                <a class="pound" style="color: rgb(239, 245, 244)"  href="#what-we-believe">#</a>
+                <a class="pound" style="color: rgb(239, 245, 244)"  href="./views/About/#what-we-believe">#</a>
                 What We Believe
               </h1>
             <div>
@@ -115,7 +116,7 @@
           <!-- <hr class=""/> -->
           <article class="virtical-pad">
               <h1 class="text3D">
-                <a class="pound" href="#home-groups">#</a>
+                <a class="pound" href=./views/About/#home-groups">#</a>
                 Home Groups
               </h1>
               <div>
@@ -131,7 +132,7 @@
         <div  class="stripe-background">
         <article>
             <h1 class="text3D">
-              <a class="pound" style="color: rgb(239, 245, 244)"  href="#leadership">#</a>
+              <a class="pound" style="color: rgb(239, 245, 244)"  href="./views/About/#leadership">#</a>
               Leadership
             </h1>
                 <p>
@@ -141,7 +142,7 @@
         <!-- update with flexbox -->
         <div class="card-deck">
             <div class="card">
-              <img src="images\WD.jpeg" class="card-img-top" alt="...">
+              <img src="./views/About/images/WD.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Wayne DeCloux</h5>
                 <p class="card-text">
@@ -151,7 +152,7 @@
             </div>
             <br />
             <div class="card">
-              <img src="images\WH.jpeg" class="card-img-top" alt="...">
+              <img src="./views/About/images/WH.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Warren Henriksen</h5>
                 <p class="card-text">Warren Henriksen has been a part of Christian Outreach Church since 1982. Warren is the founder of Trinity New Testament Ministries. Warren has been a missionary to the Philippines since 1997, establishing Living Water School of Ministry in 2004. Warren and his wife, Anita, were married in 1962. They have three adult children and a bunch of grandchildren and great-grandchildren.</p>
@@ -161,14 +162,14 @@
         <br />
         <div class="card-deck">
             <div class="card">
-              <img src="images/DH.jpeg" class="card-img-top" alt="...">
+              <img src="./views/About/images/DH.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">David Houser</h5>
                 <p class="card-text">David Houser and his wife, Mona, have been married for more than 50 years. They have five adult offspring and whole passel of grandkids. David and Mona served as missionaries in Papua New Guinea for ten years. They became a part of Christian Outreach Church in 1977. David has served at Christian Outreach School since 2001. He is also a member of the Civil Air Patrol.</p>
               </div>
             </div>
             <div class="card">
-                <img src="images/DK.jpeg" class="card-img-top" alt="...">
+                <img src="./views/About/images/DK.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Daniel Kennedy</h5>
                   <p class="card-text">Daniel Kennedy was born in Nigeria, and was raised primarily on the mission field. In 1972, he moved with his parents and siblings to Hillsboro where his father became part of the staff of Christian Outreach School of Ministries. Daniel has four adult children and one grandchild. He has been the main worship leader at Christian Outreach Church since 2008. Daniel is married to Joy.</p>
@@ -179,21 +180,21 @@
           <!-- bio cards 2/2-->
           <div class="card-deck">
             <div class="card">
-              <img src="images/TK.jpeg" class="card-img-top" alt="...">
+              <img src="./views/About/images/TK.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Tom Kraeuter</h5>
                 <p class="card-text">Tom Kraeuter has been a part of Christian Outreach Church since 1978. He was the primary worship leader for the congregation from 1984 until 1998. Tom is a writer and itinerant speaker, and also coordinates JeffCo Christians United, a coalition of churches here in Jefferson County. He and his wife, Barbara, have three adult children.</p>
               </div>
             </div>
             <div class="card">
-              <img src="images/SM.jpeg" class="card-img-top" alt="...">
+              <img src="./views/About/images/SM.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Steve Miller</h5>
                 <p class="card-text">Steve Miller came to Family Bible Camp at Christian Outreach every year as he was growing up. After graduating from college, Steve taught various grade levels at Christian Outreach School. For ten years he lived in Guiyang, China, with his family, teaching English and doing (as they say in China) "M" work. He and his wife Cathy have four children, and currently teach and serve as administrators of Christian Outreach School.</p>
               </div>
             </div>
             <div class="card">
-              <img src="images/DR.jpeg" class="card-img-top" alt="...">
+              <img src="./views/About/images/DR.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Daryl Roth</h5>
                 <p class="card-text">Daryl Roth is often referred to as our resident "walking concordance." Not many people can match the amount of Scripture he has memorized. Daryl has worked for DRS Technologies in High Ridge for nearly 30 years. He's a big fan of country music. Daryl has been married to Donna for more than 30 years. They have three adult daughters and a growing number of grandkids.</p>
@@ -209,7 +210,7 @@
             <br />
             <br />
               <h1 class="text3D " style="color: #56876D">
-                <a class="pound" href="#history">#</a>
+                <a class="pound" href="./views/About/#history">#</a>
                 History
               </h1>
               <div>
