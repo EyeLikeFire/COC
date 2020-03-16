@@ -320,6 +320,43 @@ footer {
     margin-top: -15px;
     margin-bottom: -15px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+    }
+    .text3D {
+        font-size: 2.5em;
+    
+        color: var(--color-dark);
+        text-shadow: 
+            1px 1px 1px var(--color-shadow),
+            1px 2px 1px var(--color-shadow),
+            1px 3px 1px var(--color-shadow),
+            1px 4px 1px var(--color-shadow)
+    }
+    .giant-text {
+        font-size: 12vmin;
+    }
+    .superText {
+        top: -1.5rem; font-size: 1rem;
+    }
+    button, .button {
+        padding: .5em 1em .5em 1em;
+    }
+    .icon {
+        max-width: 20px;
+    }
+    .address, .phone, .email .text3D-sub {
+        font-size: 1em;
+    }
+    .textbox, .card-title {
+        font-size: .8em;
+    }
+
+  }
+  @media only screen and (max-width: 450px) {
+
+  }
+
 @media only screen and (max-width: 900px) {
     /* For mobile phones: */
     .carousel-item > img {
