@@ -23,6 +23,7 @@ body {
 }
 
 .grid-photo { 
+    text-align: right;
     margin-top: 7px;
     grid-column-start: 1; 
     grid-column-end: 2; 
@@ -74,6 +75,10 @@ body {
     background-color: var(--color-secondary);
 }
 
+.google-map {
+    width: 500px;
+    height: 500px;
+}
 .pound {
     color: white;
     font-size: 3rem;
@@ -321,8 +326,6 @@ footer {
     margin-bottom: -15px;
 }
 @media only screen and (max-width: 600px) {
-    body {
-    }
     .text3D {
         font-size: 2.5em;
     
@@ -345,18 +348,58 @@ footer {
     .icon {
         max-width: 20px;
     }
-    .address, .phone, .email .text3D-sub {
+    .address, .phone, .text3D-sub {
         font-size: 1em;
     }
-    .textbox, .card-title {
+    .textbox, .email, .card-title {
         font-size: .8em;
+    }
+    .grid-container {
+        grid-template-columns: 26px 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    .grid-photo { 
+        max-width: 400px;
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 14px;
+        grid-column-start: 1; 
+        grid-column-end: 6; 
+        grid-row-start: 0; 
+        grid-row-end: 1; 
+      }
+      .grid-icon {
+        grid-column-start: 0; 
+        grid-column-end: 1;  
+    }
+    .grid-header {
+        font-size: 2em;
+        grid-column-start: 1; 
+        grid-column-end: 3;
+        text-align: left;
     }
 
   }
   @media only screen and (max-width: 450px) {
 
+    .google-map {
+        width: 300;
+        height: 300;
+    }
+
+    .grid-photo {
+        max-width: 290px;
+    }
+        
+    
   }
 
+  @media only screen and (max-width: 300px) {
+    .grid-photo {
+        max-width: 250px;
+    }
+  }
 @media only screen and (max-width: 900px) {
     /* For mobile phones: */
     .carousel-item > img {

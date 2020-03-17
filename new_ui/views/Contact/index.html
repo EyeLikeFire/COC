@@ -59,8 +59,6 @@
         <div class="flex-container">
             <div class="color-1"></div>
             <div class="color-2"></div>
-       <!-- <div class="color-3"></div> -->
-            <div class="color-4"></div>
             <div class="color-5"></div>
         </div>
     </div>
@@ -77,7 +75,7 @@
         <article>
             <br />
             <div class="grid-container text-left" translate="no">
-                <div class="grid-photo" style="text-align: right;">
+                <div class="grid-photo">
                     <img style="margin-right: 40px;" class="img-thumbnail" src="./views/Contact/campus01.jpg"/>
                 </div>
                 <h3 class="text3D-sub grid-header">Christian Outreach Church</h3>
@@ -96,7 +94,7 @@
             <br />
             <br />
             <div class="grid-container text-left" translate="no">
-                <div class="grid-photo" style="text-align: right;">
+                <div class="grid-photo">
                     <img style="margin-right: 40px;" class="img-thumbnail" src="./views/Contact/campus02.jpg"/>
                 </div>
                 <h3 class="text3D-sub grid-header">Christian Outreach School</h3>
@@ -125,11 +123,25 @@
         <article >
             <br />
             <div class="">
-                <div class="">
-                    <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%204430%20Outreach%20Dr%2C%20Hillsboro&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                <style>
+                    .google-maps {
+                        position: relative;
+                        padding-bottom: 75%; // This is the aspect ratio
+                        height: 0;
+                        overflow: hidden;
+                    }
+                    .google-maps iframe {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100% !important;
+                        height: 100% !important;
+                    }
+                </style>
+                <div class="google-maps">
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=%204430%20Outreach%20Dr%2C%20Hillsboro&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                     </iframe>
                 </div>
-                <style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style>
             </div>
             <br />
             <br />
